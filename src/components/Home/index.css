@@ -1,0 +1,30 @@
+.todo__days {
+  margin-bottom: 30px;
+}
+.todo__days-button span {
+  opacity: 0.4;
+}
+.todo__days-button:hover span {
+  opacity: 0.1;
+}
+.todo__days li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 12px;
+  margin-bottom: 5px;
+}
+.todo__days li:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.todo__days li.active {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+.todo__days li i {
+  margin-right: 10px;
+  display: inline-flex;
+}
+
+/*# sourceMappingURL=index.css.map */
